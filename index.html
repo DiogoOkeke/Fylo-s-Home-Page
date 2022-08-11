@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fylo</title>
+  
+    <script src="https://kit.fontawesome.com/4a67cd5783.js" crossorigin="anonymous"></script>
+  
+ 
+  <!-- Custom Styles -->
+  <style>
+  
+  body{
+   margin: 0;
+   padding: 0;
+  }
+  
+  h2, h4{
+   color: hsl(243, 87%, 12%);
+  }
+  
+  /*Header Part*/
+  
+   .header-part{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+   }
+   
+   .menu-bar{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    
+   }
+   
+   .logo{
+    margin-right: 60px;
+   
+   }
+   
+   .team{
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+   
+   .first-link{
+    text-decoration: none;
+    color: hsl(238, 22%, 44%); 
+   }
+   
+   
+   /*First Part*/
+
+    #part-one{
+     padding: 100px 10px 50px 10px;
+     
+    }
+    
+    .intro-text{
+     font-size: 15px;
+     line-height: 1.5;
+     color: hsl(238, 22%, 44%);
+    }
+    
+    .text-area1{
+     padding: 10px 70px 10px 15px;
+     border: 1px solid black;
+    }
+    
+    .first-button{
+     padding: 15px 103px 15px 103px;
+     background-color: hsl(224, 93%, 58%);
+     color: white;
+     border: none;
+     border-radius: 4px;
+    }
+    
+    .button1{
+     margin-top: 15px;
+    }
+
+
+   /*Second Part*/
+   
+   #part-two{
+     padding: 40px 20px 50px 20px;
+    background-image; url( 'bg-curve-mobile.svg');
+   }
+   
+   .second-img{
+    margin-block: 50px; 
+   }
+   
+   .text-one, .text-two{
+    font-size: 15px;
+    line-height: 1.5;
+   }
+   
+   .text-one{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: grey;
+   }
+   
+   .text-two{
+    margin-bottom: 40px;
+    color: grey;
+   }
+   
+   .arrow-part{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 40px;
+     }
+    
+    .see-how{
+     margin-right: 5px;
+     color: hsl(170, 45%, 43%);
+    }
+    
+    hr{
+    border-color: none;
+    border-color: hsl(170, 45%, 43%);
+    border-radius: 10px;
+    width: 170px;
+    margin-left: 80px;
+    }
+    
+    .testimonial-section{
+     margin-top: 30px;
+     padding-left: 40px;
+     padding-right: 10px;
+    }
+    
+    .testimonial-section1{
+     padding-block: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-size: 12px;
+     box-shadow: 1px 2px 2px hsl(238, 22%, 44%);
+    }
+    
+     .testimonial{
+      display: flex;
+     }
+     
+     .testimonial-image{
+      border-radius: 100px;
+     }
+     
+     .review{
+      line-height: 1.5;
+      margin: 0px;
+      margin-block: 10px;
+      color: hsl(238, 22%, 44%);
+     }
+     
+     .reviewer{
+      margin-left: 10px;
+     }
+     
+     .founder{
+      font-size: 10px;
+      color: hsl(238, 22%, 44%);
+     }
+     
+     
+     /*Third Part*/
+ #part-three{
+    padding:  30px 40px 50px 40px;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.text-area2{
+ padding: 10px 70px 10px 15px;
+ border: none;
+}
+
+.button2{
+ padding: 10px 72px 10px 72px;
+ border: none;
+ border-radius: 3px;
+ color: white;
+ background-color: hsl(224, 93%, 58%);
+}
+
+.second-button{
+ margin-top: 10px;
+}
+
+.cta{
+ font-size: 15px;
+ line-height: 1.5;
+ color: white;
+}
+  
+  /*Footer*/
+  
+footer{
+ padding-top: 50px;
+ padding-bottom: 30px;
+ padding-left: 40px;
+ background-color: hsl(243, 87%, 12%);
+} 
+
+.footer-logo{
+ filter:  saturate(200%) brightness(200%) grayscale(100%);
+}
+
+.footer-div1{
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+
+.footer-div2{
+ margin-bottom: 40px;
+}
+
+.phone, .email{
+ display: flex;
+ flex-direction: row;
+}
+
+.phone{
+ margin-top: 30px;
+ margin-bottom: 20px;
+}
+
+footer a, p{
+ color: white;
+ text-decoration: none;
+}
+
+.last-div{
+
+ margin-right: 10px;
+ 
+}
+
+.link{
+ color: white;
+}
+   
+   
+  </style>
+  
+ 
+</head>
+
+<body>
+  <header>
+   <nav>
+   <div class="header-part">
+    
+    <div class="logo">
+     <img src="firstlogo.svg" width="100%" alt="fylo's logo">
+   </div>
+    
+    <div class="menu-bar">
+     
+     <a href="" class="first-link">Features</a>
+     
+     <div class="team">
+     <a class="first-link"href="">Team</a>
+     </div>
+     
+     <a class="first-link"style="white-space: nowrap;" href="">Sign In</a>
+     
+    </div>
+    
+   </div>
+   
+   </nav>
+   
+  </header>
+ 
+ <section id="part-one">
+  
+  <div>
+   
+   <div align="center" >
+   <img  src="illustration-1.svg" width="80%" alt="img">
+   </div>
+   
+   <h2 align="center"> All your files in one secure location, accessible anywhere. </h2>
+   
+   <p class="intro-text" align="center">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+   
+   <div align="center">
+   <input class="text-area1"  type="email" placeholder="Enter your email...">
+   </div>
+   
+   <div align="center" class="button1" >
+   <button class="first-button">Get Started</button>
+   </div>
+   
+  </div>
+  
+  
+  
+ </section>
+ 
+ 
+ <section id="part-two">
+  
+  <div>
+   
+   <div align="center" class="second-img">
+   <img src="illustration-2.svg" width="80%" alt="img">
+   </div>
+   
+   <h4 align="center">Stay productive, wherever you are</h4>
+   
+   <div>
+    
+     <div class="text-one">
+   Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage need.
+   </div>
+   
+   <div class="text-two">
+   Securely share files and folders with friends, family and colleagues for  collaboration. No email attachments required!
+   </div>
+   
+    </div>
+   
+   
+  
+  <div class="arrow-part" align="center">
+   <div class="see-how">See how Fylo works</div>
+   <img src="icon-arrow.svg" width="10%" height="7%" alt="arrow">
+  </div>
+  
+   <hr>
+   
+   <div class="testimonial-section" style=" padding: 20px;">
+   
+   <div class="testimonial-section1">
+    <img src="icon-quotes.svg" width="5%" alt="">
+    
+     <p class="review">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine. </p>
+     
+     <div class="testimonial">
+      
+      <img class="testimonial-image" width="11%" height="30%" src="avatar-testimonial.jpg" alt="man-img">
+      
+      <div class="reviewer">
+      <h4 style="margin: 0;">Kyle Burton</h4>
+      <p style="margin: 0; margin-top: 4px;" class="founder">Founder & CEO, Huddle</p>
+      </div>
+      
+     </div>
+     
+   </div>
+   
+   </div>
+
+
+   
+  </div>
+  
+  
+  
+ </section>
+
+
+<section id="part-three">
+ 
+ <div>
+  <h3 align="center" style="color: white;">Get early access today</h3>
+  
+  <p align="center" class="cta">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
+  
+  <div align="center">
+  <input class="text-area2" type="email" placeholder="email@example.com">
+  </div>
+  
+  <div align="center" class="second-button">
+  <button class="button2">Get Started For Free</button>
+  
+  </div>
+  
+ </div>
+ 
+</section>
+
+<footer>
+ 
+ <div>
+
+     <img width="150px" class="footer-logo" src="logo.svg" alt="">
+    
+ <div class="phone">
+  
+  <div class="last-div">
+  <img src="icon-phone.svg" alt="phone-img">
+  
+  </div>
+  
+  <p style="margin: 0;">Phone: +1-543-123-4567</p>
+  
+ </div>
+ 
+ <div class="email">
+  
+  <div class="last-div">
+  <img src="icon-email.svg" alt="email-img">
+  </div>
+  
+  <p style="margin: 0;">example@fylo.com</p>
+  
+ </div>
+ 
+ </div>
+ 
+ 
+ 
+ <div class="footer-div1">
+  
+  <p>
+   <a href="">About Us</a>
+  </p>
+  
+  <p>
+   <a href="">Jobs</a>
+  </p>
+  
+  <p>
+   <a href="">Press</a>
+  </p>
+ 
+   <p>
+   <a href="">Blog</a>
+  </p>
+  
+ </div>
+ 
+ <div class="footer-div2">
+  
+  <p>
+   <a href="">Contact Us</a>
+  </p>
+  
+  <p>
+   <a href="">Terms</a>
+  </p>
+  
+  <p>
+   <a href="">Privacy</a>
+  </p>
+  
+ </div>
+ 
+ <div  style="margin-top: 13px; margin-bottom: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;" class="fa">
+								 
+								 <div style="margin-right: 30px;"   class="fa1">
+								  <a class="link" href="https://m.facebook.com/">
+										 <i class="fa-brands fa-facebook"></i>
+										</a>		
+								 </div>
+												
+										<div style="margin-right: 30px;" class="fa2">
+										 <a class="link" href="https://mobile.twitter.com/">
+										 <i class="fa-brands fa-twitter"></i>
+										</a>
+												
+										</div>
+										
+										<div style="margin-right: 30px;" class="fa3">
+										 <a class="link" href="https://www.instagram.com/">
+												 	<i class="fa-brands fa-instagram"></i>
+												</a>
+										</div>
+										
+										
+			 </div>
+ 
+ 
+</footer>
+
+
+
+
+  
+</body>
+</html>
